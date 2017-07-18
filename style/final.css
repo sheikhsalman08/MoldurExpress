@@ -1,0 +1,50 @@
+#received{
+    font-family: -webkit-body;
+    padding: 20px;
+	color: #757575;
+    font-size: 32px;
+}
+#Thank-you{
+   margin-left: 1%;
+  font-family: sans-serif;
+	padding: 10px;
+	color: #757575;
+}
+#oder-serial{
+   font-size: 11px;
+   padding: 3px;
+	text-align: center;
+	color: #757575;
+}
+#oder-number{
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 25px;
+	color: #616161;
+	font-weight: 700;
+}
+#send-a{
+    margin-top: 1%;
+	margin-left: 35px;
+	color: #757575;
+	font-size: 16px;
+    margin-bottom: 10px;
+}
+table, tr{
+    border: 1px solid #BDBDBD;
+    border-collapse: collapse;
+	height: 35px;
+}
+table, tr,th{
+	padding: 10px;
+}
+th{
+  color: #757575;
+}
+td{
+   padding: 10px;
+	color: #757575;
+}
+table{
+    margin-bottom: 30px;
+}

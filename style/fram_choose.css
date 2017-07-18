@@ -1,0 +1,94 @@
+#file{
+  border: 2px dashed #0087F7;
+  border-radius: 5px;
+  background: white;
+  padding: 10px;
+  outline: none;
+}
+.margin-top-20{
+  margin-top:20px;
+}
+.dz-success-mark,.dz-error-mark,.dz-error-message,.dz-preview{
+  display:none;
+}
+.frame-box{
+  position:relative;
+}
+.potraitImg{
+  object-fit: cover;
+  height: 347px;
+  width: 265px;
+}
+.landscapeImg{
+  object-fit: cover;
+  width: 338px;
+  height: 241px;
+}
+.frame-box-landscape{
+  position:relative;
+  display: none;
+}
+.noborder{
+  padding:0;
+}
+.cm3Border{
+  padding:20px;
+}
+.cm5Border{
+  padding: 30px;
+}
+.image-box{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.image-box-landscape{
+  position: absolute;
+  top: 54px;
+  left: 3px;
+}
+.potrait-frame{
+  height:350px;
+  width:267px;
+  position: absolute;
+  z-index: 10;
+}
+#frame{
+  height:290px;
+}
+#size input{
+  margin: 7px;
+}
+.landscape-frame{
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  height:350px;
+  width:245px;
+  position: absolute;
+  left: 50px;
+  z-index:10;
+}
+
+.frames{
+  height:200px;
+  width:120px;
+  cursor: pointer;
+}
+.slick-slide.slick-active{
+  outline: none;
+}
+.tab-pane{
+  margin:20px 0;
+}
+.slick-prev:before, .slick-next:before{
+  color: black;
+}
+@media screen and (max-width: 760px) {
+    .control-box{
+        margin-top:400px;
+        padding:20px 30px;
+    }
+}

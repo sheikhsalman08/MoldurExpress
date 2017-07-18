@@ -1,0 +1,153 @@
+
+/*****************
+    logo & cart
+*****************/
+@media screen and (max-width: 360px) {
+	#logo{
+   margin-left: 0%;
+   margin-top: 3%;
+}
+#shopping{
+	height: 38px;
+    width: 15%;
+    margin-top: -43%;
+    margin-left: 80%;
+  }
+}
+@media screen and (max-width: 400px) {
+	#logo{
+   margin-left: 0%;
+   margin-top: 3%;
+}
+#shopping{
+	height: 38px;
+    width: 15%;
+    margin-top: -40%;
+    margin-left: 80%;
+  }
+	.btn-warning {
+    margin-left: 15%;
+}
+}
+@media screen and (max-width: 550px) {
+	#logo{
+   margin-left: 0%;
+   margin-top: 3%;
+}
+#shopping{
+	height: 38px;
+    width: 15%;
+    margin-top: -32%;
+    margin-left: 80%;
+  }
+	#social{
+    margin-left: 0px;
+}
+#footer_text{
+   margin-left: 0%;
+}
+}
+@media screen and (max-width: 600px) {
+	#logo{
+		width: 70%;
+   margin-left: 0%;
+   margin-top: 3%;
+}
+#shopping{
+	height: 38px;
+    width: 15%;
+    margin-top: -27%;
+    margin-left: 80%;
+  }
+}
+@media screen and (max-width: 700px) {
+	#logo{
+   margin-left: 0%;
+   margin-top: 3%;
+}
+#fram-picture{
+	margin-bottom: 20px;
+   height: 200px;
+	width: 90%;
+	margin-top: 20%;
+	-webkit-animation-duration: 2s;
+}
+#shopping{
+	height: 38px;
+    width: 15%;
+    margin-top: -20%;
+    margin-left: 80%;
+  }
+	.potrait-frame {
+    margin-top: 38px;
+}
+	.potraitImg {
+    margin-top: 38px;
+}
+@media screen and (max-width: 750px) {
+   #shopping{
+        margin-top: -40%;
+}
+}
+@media screen and (max-width: 770px) {
+	#logo{
+   margin-left: 0%;
+   margin-top: 3%;
+}
+#shopping{
+	height: 38px;
+    width: 15%;
+    margin-top: -12%;
+    margin-left: 80%;
+  }
+	#phone-number{
+    margin-top: 5%;
+}
+	#shopping-text{
+	display: none;
+	}
+}
+
+
+/**********************
+    Menu
+**********************/
+@media screen and (max-width:1170px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:1170px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+	.mySlides {
+    height: 400px !important;
+	width: 100%;
+}
+	ul.topnav {
+  position: fixed;
+		height: auto;
+	display: block;
+    max-height: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+		width: 100%;
+}
+}

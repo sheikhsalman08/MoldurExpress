@@ -1,0 +1,86 @@
+body{
+   background-color: rgb(221, 221, 221);
+}
+#car-park{
+    border: 2px solid black;
+}
+#drag_img1 img{
+    height: 150px;
+	width: 100px;
+	margin-bottom: 20px;
+    margin-top: 30%;
+}
+
+#drag_img2 img{
+    height: 150px;
+	width: 100px;
+	margin-bottom: 20px;
+    margin-top: 30%;
+}
+
+#drag_img3 img{
+    height: 150px;
+	width: 100px;
+	margin-bottom: 20px;
+    margin-top: 30%;
+}
+
+#drag_img4 img{
+    height: 150px;
+	width: 100px;
+	margin-bottom: 20px;
+    margin-top: 30%;
+}
+
+#drag_img5 img{
+    height: 150px;
+	width: 100px;
+	margin-bottom: 20px;
+    margin-top: 30%;
+}
+
+
+#well_image1{
+	background-image: url(../images/well_back_pic4.png);
+	height: 600PX;
+}
+
+
+#well_image2{
+	background-image: url(../images/well_back_pic1.png);
+	height: 600PX;
+}
+
+#well_image3{
+	background-image: url(../images/well_back_pic5.jpg);
+	height: 700PX;
+}
+
+#well_image4{
+	background-image: url(../images/well_back_pic6.jpg);
+	height: 700PX;
+}
+
+#well_image5{
+	background-image: url(../images/well_back_pic7.jpg);
+	height: 700PX;
+}
+
+.ui-widget-header {
+    height: 50px !important;
+    background-color: #1ab188 !important;
+    color: #eaf5f7;
+    font-weight: bold;
+}
+
+.ui-tabs .ui-tabs-panel {
+    display: block;
+    border-width: 0;
+    padding: 0em !important;
+    background: none;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+     background-color: #0b946f;
+}
+

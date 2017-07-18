@@ -1,0 +1,274 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+#logo{
+   height: 75px;
+   width: 30%;
+   margin-left: 22%;
+   margin-top: 3%;
+ -webkit-animation-duration: 2s;
+}
+#shopping{
+    height: 30px;
+    width: 9%;
+    margin-top: 5%;
+    cursor: pointer;
+}
+#shopping-text{
+    margin-top: -5%;
+    margin-left: 10%;
+    font-family: Courier New, monospace;
+}
+#phone-number{
+    margin-top: 20%;
+	font-style: italic;
+	font-size: 100%;
+}
+#phone-number1{
+	font-style: italic;
+	    font-size: 100%;
+}
+/*****************************
+    Top Shopping Cart Box
+*****************************/
+.shopping-cart-wrapper{
+  position: relative;
+}
+.shopping-cart{
+  display:none;
+}
+/***********************************************
+                  Menu
+*************************************************/
+.fixed-menu{
+  background:white;
+}
+body {margin:0;}
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  text-align: center;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1ab188;
+}
+
+ul.topnav li {
+  display:inline-block;
+}
+
+ul.topnav li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 50px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
+  font-family: Courier New, monospace;
+  cursor:pointer;
+}
+ul .active{
+  background-color: #0b946f;
+}
+ul.topnav li a:hover {background-color: #555;}
+
+ul.topnav li.icon {display: none;}
+.container-fluid{
+   padding-right: 15px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#phone-number2{
+    margin-top: 20%;
+}
+
+/***********************************************
+                         slider
+*************************************************/
+.w3-content img {
+    height: 800px;
+}
+.mySlides {
+    height: 600px !important;
+	  width: 100%;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+.w3-btn-floating{
+  cursor:pointer;
+  color:#1ab188;
+}
+.w3-btn-floating:hover{
+  color:#0b946f;
+}
+#arrow{
+   height: 10px;
+}
+#social-icon{
+  margin-left: 35%;
+    margin-top: 15%;
+}
+/***********************************************
+                   all the  frams
+*************************************************/
+#fram-picture{
+	margin-bottom: 20px;
+   height: 250px;
+	width: 90%;
+	margin-top: 50%;
+	-webkit-animation-duration: 2s;
+}
+#text_name{
+    text-align: center;
+	margin-bottom: 15px;
+}
+.btn-warning {
+    margin-left: 30%;
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+	margin-bottom: 12%;
+	text-transform: uppercase;
+}
+/***********************************************
+                     fourth
+*************************************************/
+#fourth{
+    margin-top: 70px;
+	background-color: black;
+}
+#Exclusively{
+   font-family: Times New Roman, serif;
+    font-weight: 700;
+	color: white;
+}
+#Exclusively-part1{
+    font-family: cursive;
+	color: white;
+}
+#Exclusively-part2{
+           margin-top: 10px;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+    color: white;
+    font-size: 270%;
+    margin-bottom: 15px;
+}
+/***********************************************
+                     Footer
+*************************************************/
+#footer{
+   background-color: #1ab188;
+   padding:30px 0;
+   color: white;
+}
+#footer .address{
+  margin-bottom: 10px;
+}
+#footer h4{
+  margin-bottom:20px;
+}
+#footer label{
+  margin-bottom:10px;
+}
+
+
+
+
+
+/***********************************************
+                    about
+*************************************************/
+#about-img1{
+   width: 100%;
+	height: 400px;
+	margin-top: 10%;
+}
+#about_text1{
+    text-align: center;
+    margin-top: 10%;
+    text-transform: uppercase;
+	font-weight: 800;
+}
+#about_text2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 300%;
+    margin-top: -1%;
+}
+#about_text3{
+        text-align: center;
+    margin-top: -1%;
+    font-family: monospace;
+}
+#best-sell{
+       margin-top: 30%;
+    background: rgb(41, 175, 138);
+    padding: 11px 20px;
+    width: 50%;
+    font-family: serif;
+    font-weight: 600;
+    border-radius: 5px;
+    color: white;
+}
+#best-sell-title{
+    text-transform: uppercase;
+	font-weight: 700;
+}
+#best-price{
+    font-weight: 700;
+    font-family: Palatino, serif;
+}
+#best-price_dollar{
+    text-decoration: none;
+    color: #ec1c33;
+    font-size: 150%;
+}
+#best-price_para{
+        font-family: New Century Schoolbook, serif;
+}
+#best-price_button{
+      width: 50%;
+    margin-top: 10%;
+	border: 2px solid #ec1c33;
+}
+#best-price_button:hover{
+      background: #ec1c33;
+}
+ #three_image_text {
+    text-align: center;
+    font-family: New Century Schoolbook, serif;
+    font-weight: 700;
+}
+
+
+/******************************************
+           photographer
+*****************************************/
+#photo-gallery{
+  background: black;
+  text-align: center;
+}
+#photo-gallery .item{
+  padding:0;
+  background: black;
+}
+#photo-gallery .item img{
+  object-fit: cover;
+  height:200px;
+}
+
+/******************************************
+           Login singup
+*****************************************/
+input[type="text"] {
+    margin-bottom: 7px;
+}
+.control-box{
+   margin-bottom: 50px;
+}
+input#exampleInputcomment {
+    height: 135px;
+}
